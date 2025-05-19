@@ -1,0 +1,2 @@
+tiles_*/**/*.png filter=lfs diff=lfs merge=lfs -text
+comparison_data/**/*.png filter=lfs diff=lfs merge=lfs -text
