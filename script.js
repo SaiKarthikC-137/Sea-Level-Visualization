@@ -6,7 +6,7 @@ var map = L.map('map', {
         [-90, -180], // Southwest corner
         [90, 180] // Northeast corner
     ],
-    maxBoundsViscosity: 1.0 // Strictly enforce bounds
+    maxBoundsViscosity: 1.0
 }).setView([0, 0], 2);
 
 // Add a tile layer (base map)
